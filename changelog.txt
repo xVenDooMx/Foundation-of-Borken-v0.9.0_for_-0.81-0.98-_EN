@@ -1,0 +1,548 @@
+﻿2026/2/16/0.9.0
+-Updated for 0.98.
+-Adjusted several descriptions, including:
+    All weapons compatible with Alien Corruption.
+-Added Ascension Dross. Producing Ascendants also produces an equal amount of Dross, which uses no cargo space and has no credit value.
+-Crystal Hole tunnels can now be selected as transfer destinations. Base duration increased from 3 to 15 days. Spending 10000 Ascension Dross reinforces a tunnel for an additional 1000 years.
+-The Old God Scholar's ship system is now Soul Stitch Drive. Dealing enough damage grants charges to this system and Deep Space Navigation.
+-Added Womb-Realm of Days Past as a built-in Cthylla hullmod, increasing its Ascension Ritual efficiency by 50%.
+-Corrected several descriptions.
+
+2025/3/29/0.8.1 Hotfix
+-Fixed duplicate earnings in monthly reports. Income and expenses now appear directly in last month's net income.
+
+2025/3/28/0.8.1
+-Fixed an Ascension Ritual crash.
+-Attempted to fix the Hound Core Array color bug.
+-Halved Stellar Financing's base returns. Income now appears in last month's income report.
+-Crystal Hole automatic resupply expenses and automated cargo handling income/expenses now appear in last month's income report.
+-Dhole deployment/monthly supply cost: 8->7.
+-Touch of the Black Goat now overpenetrates missiles and fighters, like the Plasma Accelerator.
+
+2024/12/21/0.8.0
+-Updated for 0.97.
+-Added Alien Corruption hullmods that enhance specific weapon series. Unlocked from the start and hidden when no compatible weapons are fitted. Three types are currently available:
+    Quantum Interference: enhances FixG.
+    High-Sensitivity Surge: enhances Roaring Bolt Cannons.
+    Spatial Oscillation: enhances Halo Microwave Cannons.
+-Increased the Roaring Bolt series' arc trigger chance to 30%.
+-Adjusted FixG missile behavior and improved effects.
+-Improved Touch of the Black Goat splitting behavior; flux per shot: 2000->1600.
+-Chaugnar peak performance time: 600->360 seconds; CR cost per deployment: 20%->40%.
+-Added the beneficial UNGP crossover rule Cerebral Infection.
+-Adjusted the position of the Eye of Cthulasus in combat.
+-Added R'lyeh Colonization Centers as stations for Borken planets; they cannot be built.
+
+2024/2/17/0.7.2
+-Corrected some text.
+-Old God Scholar flux capacity: 7500->8000.
+-Dhole hull: 1500->2000; slightly reduced acceleration.
+-Reduced Afogomorn Keel ordnance costs for frigates, destroyers, and cruisers.
+-Reduced Sine series explosion radius by 10% and halved EMP damage. Now deals 75 fragmentation damage every 0.5 seconds; each hit reduces the cooldown by 0.05 seconds.
+-Slightly increased Shudde M'ell and Basatan acceleration/deceleration. Reduced Basatan top turning speed and increased turn acceleration.
+-Chthonian hull: 7000->6500; armor: 750->700. Its system now grants only 25% extra energy weapon damage. Removed armor vulnerability and charges, and reduced deployment CR cost.
+-Adjusted Star Guarding thresholds. The elite armor regeneration acceleration bonus is now 50%.
+-Star Hunter Circulation Hub now reduces rate of fire by 20% at high flux.
+
+2024/2/8/0.7.1 Hotfix
+-Attempted fixes for several gameplay bugs.
+
+2024/2/3/0.7.1
+-Reduced Souls Assembly Void Soul hull: 1000->750.
+-Destined Fate Meteor Shard projectile speed: 450->500.
+-Fixed AI cores being able to select Borken skills, a vanilla bug. Borken skills are now hidden from the fleet/officer combat skill interface.
+-Improved Soul of Cthulasus descriptions. A soul is now released for each (500+100 x previous soul releases) hull lost.
+-Readjusted some Nexerelin settings.
+-Polyp hull: 8500->8000.
+-Nyogtha armor: 1400->1250; built-in missile DPS: 250->200; burst size: 20->15.
+-Shoggoth armor: 1250->1000.
+-Chaugnar deployment/maintenance cost: 50->60.
+-Chthonian peak performance time: 420->360 seconds.
+-Mi-Go deployment points: 13->15; 3 small synergy mounts->3 small energy mounts; 2 rear-facing medium energy mounts->2 medium synergy mounts.
+-Tindalos deployment points: 11->13; top speed: 90->80. Added built-in Hound Core Array. Replaced its system with Cthulasus Hunt, which dashes forward and maintains maximum pursuit bonuses for 5 seconds.
+-Dhole flux capacity: 3000->3250; dissipation: 125->150.
+-Attempted fixes for intermittent bugs.
+-Reduced maneuverability on some ships.
+
+2024/1/30/0.7.0 Hotfix
+-Fixed Souls Assembly.
+-Fixed abandoned Stellar Energy Collection Stations appearing everywhere.
+
+2024/1/30/0.7.0
+-Updated for 0.96.
+-Adjusted Ascension Ritual crew parameters. Borken ships with 0 minimum crew can still perform Ascension Rituals.
+-Opening a Crystal Hole link now creates a tunnel lasting 3 days for cargo access. After becoming Cthulasus Borken, you can pay credits to transfer to jump points in anchor systems.
+-Added a new skill aptitude with 6 skills, 5 available to learn; the first is automatically obtained by visiting a Borken market.
+    Consciousness Descend: the basis for Borken story progression, acquired by visiting a Borken colony.
+    Circumstellar Intervention: strengthens Borken ships without officers.
+    Stellar Financing: earns credits while idle.
+    Star Guarding: reduces repeated damage from the same source.
+    Star Chasing: reduces terrain effects and improves logistics near stars.
+    Souls Assembly: enhances Soul of Cthulasus.
+    Destined Fate: flagship attacks generate Meteor Shards to assist, at the cost of higher deployment points and reduced total damage.
+-Added campaign conversations that expand the lore.
+-Default Borken relationships now vary slightly with faction policies. Reduced reputation with factions allowing transponder-off trading or ignoring trade with enemies, down to neutral at worst compared with previous versions.
+-A total of 5 abandoned Stellar Energy Collection Stations now spawn near random stars, linked to Stellar Financing.
+
+-Slightly adjusted weapon arcs, top speed, and maneuverability on most ships.
+-Adjusted/increased hull and armor on all ships. Changed regeneration and armor equalization rates and rewrote armor regeneration formulas. Adding armor can sharply reduce the amount regenerated.
+-A.O.O.I. beam damage reduction standardized at 50%. It now reduces effective armor strength by 66%. Removed restrictions on Heavy Armor and Armored Weapon Mounts.
+-Cthylla default personality is now Steady; deployment cost: 20->22.
+-Adjusted Nyogtha mounts, adding 2 medium and 6 small mounts. All medium mounts are now hybrid; 4 small mounts are missile. Built-in FixG-L replaced with fragmentation FixG-N missiles.
+-Chthonian-class destroyer:
+    Cthulasus Fever maximum charges: -1; duration: 3->2.5 seconds.
+-Old God Scholar deployment cost: 30->35. Slightly adjusted Cthugha's Breath DPS/FPS and improved effects.
+-Polyp central medium synergy mount->medium hybrid.
+-Basatan gains the built-in Exo-Sea Vortex Control Engine, accelerating when far from allied ships.
+-IBB Rast's Cthulasus Tidal Wave now generates flux per second while active. Replaced 50% armor resistance with doubled A.O.O.I. armor regeneration rate.
+-Borken ships now show flowing, writhing visual effects while submerged.
+
+-Reduced Hound Core Array bonuses. Maximum damage/speed bonuses are now 20%/20%/15%/10% and 20%/20%/25%/25%, with corresponding UI indicators.
+-Added Pause Ritual, an auxiliary hullmod that manually stops Soul Fusion Framework rituals.
+
+-Molten Raska AAC projectile speed slightly reduced; EMP removed. DPH: 60->100; DPS: 205->180. Added projectile trails.
+-Molten Skorka AAC projectile speed slightly reduced; EMP removed. DPS: 349->300. Added projectile trails and improved accuracy.
+-Reduced Roaring Bolt Mk.III spread. The series now has a chance to trigger equal-damage arcs on hull hits, like the vanilla Ion Cannon. Increased flux-to-damage ratio.
+
+-Halo Microwave Cannon Mk.III range: 650->600; DPH: 600->400; DPS/FPS: 400/480.
+-Halo Microwave Cannon Mk.IV range: 800->700; DPH: 600->400; DPS/FPS: 600/600.
+-Halo Microwave Cannons now have a chance to deal direct hull damage on impact.
+-Reworked Sine Repeaters to replace Faded Flak as disabling/area point-defense weapons. Reduced visual effect intensity.
+-Temporarily removed Faded Flak weapons.
+-Buffed medium and large FixG launchers. Entering phase space now adds 25% reload progress.
+-Improved Touch of the Black Goat effects.
+
+-Greatly reduced the Eye of Cthulasus background's default maximum opacity when Borken forces have the advantage.
+
+2023/4/14/0.6.1
+->Deep Space Navigation no longer causes overloads.
+->Fixed possible excessive recovery from Afogomorn Keel.
+->Tindalos deployment: 10->11; built-in Greystab Mk.V->Mk.IV; central medium universal mount->medium hybrid.
+->Mi-Go deployment: 11->13; hull: 3750->4000; dissipation: 250->300. Rear 2x medium hybrid mounts->medium energy; 1x small hybrid->small synergy. Improved firing arcs.
+->Chthonian hull: 5250->5000.
+->Adjusted Nyogtha firing arcs; 2x small universal mounts->small energy; armor: 1000->900.
+->Slightly adjusted freighter mounts.
+->Gnoph-keh deployment: 3->6; flux capacity/dissipation: 3000/250->2000/200; fuel: 150->200.
+->Shoggoth deployment: 10->15; fuel: 400->600.
+->Chaugnar fuel: 2000->3000.
+->Dhole medium hybrid mount->medium energy.
+->Removed EMP damage from Cthugha's Breath, built into the Old God Scholar.
+->Tracking Anti-Air System cooldown: 8->10 seconds; damage: 250->300.
+->Standardized Star Hunter Circulation Hub bonuses at 10%.
+->Restored damaged hull textures.
+->Rewrote the Crystal Hole bar event; it now always appears.
+->Reduced Crystal Hole upgrade credit costs.
+->Improved some loadouts.
+
+2023/3/30/0.6.0 hotfix3
+->Fixed Greystab installation on ships with a special right-click system.
+
+2023/3/28/0.6.0 hotfix2
+->Byakhee maximum burn: 6->8.
+->Fixed Soul Fusion Framework crew issues.
+
+2023/3/26/0.6.0 hotfix
+->Fixed Greystab's special mechanic and added its description: entering deep space resets its cooldown.
+->Dhole deployment: 7->8.
+->Roaring Bolt weapons now prioritize the selected target.
+
+2023/3/25/0.6.0 (Incompatible with existing saves)
+->Optimized code.
+->Reworked Soul Fusion Framework:
+    Now divides into Revival Rituals that repair D-mods and Soul Fusion Rituals that reduce crew requirements.
+    Worshiping Zyartplatho now halves Ascendant consumption in Soul Fusion Rituals.
+->After player ascension, Envoy contacts offer special missions to buy large quantities of Ascendants for greater rewards.
+->New light cruiser: Cthylla.
+->Experimented with Kotlin for some code.
+->Fixed inability to open a Crystal Hole at an anchor without credits.
+->FixG missiles now attack fighters and last one second longer. Medium and large launcher reload time: +0.25 seconds.
+->FixG-L ammo regeneration per second: 0.25->0.3; amount restored per cycle: 20->12.
+->FixG-S ammo regeneration per second: 0.15->0.1.
+->Reworked Roaring Bolt weapons:
+    They are no longer beams and now fire homing projectiles.
+->Redesigned the Faded-M Flak Cannon texture.
+->Halo Microwave Cannon Mk.I flux per shot: 350->275.
+->Greystab series changes:
+    Reduced all Greystab ranges except Mk.I by 100.
+    Greystab Mk.I burst damage: 645->600.
+    Greystab Mk.II burst damage: 1150->1200; DPS/FPS: 160/200->140/175; ordnance cost: 11->10.
+    Greystab Mk.IV flux-to-damage ratio increased to 1.
+    Greystab Mk.V burst damage: 3200->3000; approximate penetration: 1000->900; DPS/FPS: 254/330->240/300; flux-to-damage ratio: 1.3->1.25.
+->Increased Deep Space Navigation sustained flux costs on Borken cruisers and capital ships. Fixed the resurfacing damage reduction curve.
+->Borken ships no longer try to rotate undamaged armor toward incoming fire.
+->Non-carrier Borken ships now use Aggressive AI behavior by default.
+->Tracking Anti-Air System maneuverability bonus: 100%->50%; redesigned effects; cooldown: 6->8 seconds.
+->A.O.O.I. kinetic damage taken: +25%->33%; HE/fighter damage reduction: 25%->33%. Lost armor now takes 4 seconds to regenerate, and D-mods suppress self-repair.
+->IBB Rast Mod-Integrated Battleship:
+    Flux capacity: 20000->16000.
+    Reduced Chaos Latency right-click flux requirements and increased combat speed/maneuverability.
+    Cthulasus Tidal Wave damage bonus: 20%->25%; armor damage reduction: 33%->50%; cooldown increased by 5 seconds.
+    Improved firing arcs; 2 medium energy mounts at the bow->2 medium hybrid mounts.
+    Removed the modules' built-in Colour FixG weapons. Replaced built-in Greystab Mk.V with Greystab Mk.Colour Out of Space, which deals hard flux damage.
+    Deployment: 65->70.
+->Shudde M'ell flux capacity: 17000->12000; dissipation: 800->600. Removed two built-in FixG-Z launchers and added two small universal mounts. Two small universal mounts at both bow and stern are now hybrid. Slightly adjusted arcs; ordnance points: 300->315.
+->Basatan flux capacity: 20000->15000; dissipation: 1200->750. Replaced two built-in Greystab Mk.III weapons with FixG-Z launchers. Its system no longer counts projectile weapons with non-regenerating ammunition.
+->Chaugnar hull: 16000->15000; armor: 1800->1600; flux capacity: 8000->6000.
+->Polyp flux capacity: 8500->6500; top speed: 85->80. Slightly reduced maneuverability, removed 2 small hybrid mounts, reduced ordnance points from 120->110, and improved arcs.
+->Greatly reduced Old God Scholar Cthugha's Breath windup and intervals between its 4 projectiles. Flux capacity: 9000->7500; top speed: 80->75.
+->Shoggoth armor: 1250->1000; flux capacity: 8000->4500.
+->Nyogtha hull: 13500->12000; armor: 1100->1000; flux capacity: 8000->5000; maximum burn: 7->8.
+->Chthonian flux capacity: 8000->6000; dissipation: 450->400.
+->Gnoph-keh flux capacity: 3250->3000.
+->Mi-Go flux capacity: 4200->3500.
+->Tindalos flux capacity: 6000->4500.
+->Dhole deployment: 6->7.
+->Shaggai hull/armor: 400/250->300/100. Firing weapons no longer generates flux.
+->Byakhee flux capacity/dissipation: 8000/500->5000/400; deployment: 35->27. Replaced Enhanced Vitality Burst with Tracking Anti-Air System and added built-in Burst Bay.
+->Shantak deployment: 7->6.
+
+2022/5/20/0.5.4
+->Adjusted some text.
+->Added a player ability to block Outer God Stabilization Column reinforcements, unlocked from the start.
+->Adjusted Soul Fusion Framework text.
+
+2022/3/27/0.5.3
+->Smoothed some effects.
+->Adjusted Borken resurfacing mechanics, granting 90% damage reduction at the instant of resurfacing.
+->Corrected the mismatch between Chthonian system values and its description.
+->New Horizons now continues to display the chosen faith after player ascension.
+->Soul Fusion Framework minimum crew reduction per fusion ritual: 5%->10%; limits: 50/40/30/20%->80/70/60/50%.
+->Reduced minimum and maximum crew requirements overall, roughly by half.
+->Nyogtha hull: 12000->13500; deployment: 28->25.
+->New Horizons ascension now requires an Envoy's approval. After meeting at least 3 other prerequisites, answer questions in a Borken bar.
+->Outer God Stabilization Column reinforcement cooldown is now 45 days.
+->Adjusted Ascension Ritual efficiency near the Eye of Cthulasus.
+->Players who have already ascended are advised to start a new game to experience the latest changes.
+
+2022/3/18/0.5.2
+->Fixed some text issues.
+->Deep Space Navigation charge recovery: every 13.3 seconds->every 20 seconds. Slightly reduced speed and maneuverability bonuses and increased hard flux per second while submerged. Cooldown is now affected only by Soul Fusion Framework Deep Awareness level.
+->Plasmoid ASC Mk.I flux per shot: 51->54.
+->Attempted to fix Shadow Dash AI.
+->Old God Scholar hull/armor: 8250/900->8000/800.
+->Nyogtha/Basatan maximum burn: 6->7.
+->Readjusted Tracking Anti-Air System effects.
+->Replaced the Soul Fusion Framework icon.
+->Redesigned A.O.O.I. baseline armor recovery effects, with a small sound cue and stronger visuals.
+->Soul of Cthulasus now grants one Deep Space Navigation charge when a soul is shot down and the system has 0 charges.
+->Borken Outer God reinforcements now consider relations with the hostile fleet before assisting you.
+
+2022/3/16/0.5.1
+->Attempted fixes for Ascendant cargo overflow.
+->IBB Rast modules can no longer be selected.
+->Outer God Stabilization Column support now requires Friendly relations with the Borken.
+->Power Cycle Drive can now be stopped early, like the vanilla Burn Drive.
+->Star Hunter Circulation Hub armor penetration standardized at 10%; ordnance points: 5/10/16/24->4/8/12/20.
+
+2022/3/15/0.5.0
+->Updated for 0.95.1a.
+->Reduced Peaceful Evolution rewards by 40%.
+->Halved automatic Ascension Ritual efficiency near the Eye of Cthulasus and capped each conversion at 50 crew.
+->Updated text; filtered cargo can now be deposited into the Crystal Hole with one click.
+->Updated many hullmod descriptions.
+->Afogomorn Keel no longer grants an armor calculation bonus; ordnance points are now 4/8/12/15.
+->Ceremonial Workshop no longer reduces cargo/fuel capacity based on non-built-in hullmod count and no longer increases supply maintenance.
+->Increased hull and armor on most ships.
+->Dhole armor: 275->250; top speed: 140->125. Wormhole Generator recharge: 8->10 seconds, with a 5-second cooldown between teleports.
+->Reduced Shudde M'ell, Basatan, and IBB Rast deployment cost by 5 each.
+
+->Molten Skorka AAC ordnance points: 28->25; range: 1000->900; EMP damage: 20->50.
+->Added new Greystab effects.
+
+->New mechanic: player ascension:
+    The player can become Borken by meeting a series of conditions.
+    After becoming Borken, choose to worship Mottasheamus or Zyartplatho.
+    Borken descriptions of the player change after ascension. The chosen faith grants bonuses to Ascension Rituals or Soul Fusion Framework respectively.
+->New mechanic: the battlefield Eye:
+    When Borken deployment points exceed those of other ships, the Eye of Cthulasus appears in the background. It can be disabled in FOB_SETTINGS.ini.
+->New special item: Outer God Stabilization Column, obtainable through salvage:
+    Requires low gravity. Install at Patrol HQ, Military Base, or High Command to increase fleet size and provide remote reinforcements.
+
+2021/1/26/0.4.0 RC2
+->Fixed a Crystal Hole filtering bug.
+
+2021/1/25/0.4.0 RC1
+->Removed Ceremonial Workshop production limits.
+->Ascension Rituals now occur automatically near CrystalFG33 when enough idle crew and Ritual Bowls are available.
+->Halved Peaceful Evolution rewards; reputation loss for failure: 1->3.
+->Added Soul Fusion Ritual hullmod, using Ascendants to repair D-mods and granting special bonuses after each repair.
+->Reworked Private Crystal Hole and removed deployed bases. It is now obtained through a bar event with Welcoming or better Borken relations. It can be opened anywhere, though outside anchor systems it takes much longer and incurs extra fees. The player can pay to establish a nonphysical system anchor. Storage capacity is unlimited, with charges for exceeding free capacity.
+->Ship changes:
+    Removed one small hybrid mount from the Polyp light cruiser.
+    Basatan top speed: 22->25.
+->Weapon changes:
+    Built-in FixG ammunition: 40->20. Increased missile regeneration for all FixG models, including built-ins.
+    Plasmoid ASC Mk.I flux per shot: 54->51.
+    Built-in Greystab V flux per second: 2000->1810; flux-to-damage ratio: 1.44->1.3.
+
+2020/9/28/0.3.1 RC1
+->Temporarily removed the Eye of Cthulasus notification.
+->Improved the LPC weapon inspector layout.
+->Buffed Plasmoid Mk.II, increasing its flux-to-damage ratio to 1.1 and adding EMP damage.
+->Added A.O.O.I. armor status indicators.
+->Touch of the Black Goat damage multiplier after splitting: 0.7->0.6.
+->Cthugha's Breath DPH: 360->500; flux per shot: 270->375.
+->Most Borken warships now have Soul of Cthulasus. Hull loss and disabling release souls that repair other Borken ships; souls can be shot down.
+
+2020/8/2/0.3.0 RC3
+->Fixed some Crystal Hole bugs.
+
+2020/7/27/0.3.0 RC2
+->Fixed several bugs that could cause crashes.
+
+2020/7/26/0.3.0 RC1
+->Added Automatic Resupply Agreements to the Private Crystal Hole Remote Terminal, automatically transferring supplies and fuel to the player's fleet.
+->Nyogtha system replaced with Tracking Anti-Air System; supply/deployment cost: 30->28.
+->Shudde M'ell peak performance time: 900->720; maximum burn: 6->7; minimum crew: 650->700; flux capacity/dissipation: 18000/900->17000/800.
+->Basatan flux capacity/dissipation: 25000/1200->20000/1200. Void Shambler Barrage now generates projectiles based on their flux cost.
+->Reduced weapon prices overall.
+->Halo Microwave Cannon Mk.VI no longer fires three-shot bursts; range: 850->800; shortened attack interval.
+->Touch of the Black Goat split damage multiplier: 0.6->0.7; damage per shot: 1500->1600.
+->FixG weapons no longer generate flux.
+->Roaring Bolt beam speed: 1000->10000.
+->Added Borken IBB content, pending the SWP update.
+->The Gaze.
+- Added new function: Auto Supply Agreement(found in PCR remote), auto deliver supplies and fuel from PCR to your fleet.
+
+2019/10/20/0.2.8 RC1
+->Reduced ammunition regeneration across the FixG series.
+-Debuffed Fix-G series missiles.
+
+2019/9/28/0.2.7 RC3
+->Attempted to fix other bugs.
+->Star Hunter Circulation Hub penetration bonus: 15/18/21/24->20/20/25/25%.
+->Ceremonial Workshop cargo/fuel capacity penalty per hullmod: 5%->2.5%.
+-Tried fixed some bugs.
+-Star Hunter Circulation Centre hit strength bonus:15/18/21/24%->20/20/25/25%.
+-Tweaked Ceremonial Workshop's decrease capacity of cargo and fuel from 5% to 2.5%.
+
+2019/9/5/0.2.7 RC2
+->Fixed a bug in the additional Nexerelin start.
+-Fixed bug that will make Nex custom starts null.
+
+2019/9/3/0.2.7 RC1 — Start a new game. This update will break your saves.
+->Ceremonial Workshop now works only on ships in the player's fleet. Fixed several issues that could corrupt saves.
+->New Private Crystal Hole Remote Terminal! Remotely inspect and upgrade the facility through intel, and even transfer cargo. Transfers cost substantial credits.
+->Crystal Hole bases can now be deployed only on fully surveyed planets or stations with a market. The deployment option remains hidden until Borken relations reach Friendly.
+-Now Ceremony Workshop only takes effect in player's fleet. Fixed some problems which may break your saves.
+-Brand new PCR Remote Terminal. You could check PCR's cargo and upgrade it when you are not at your PCR services. You could even use this terminal to transfer cargo! Though the tariff is extremely expensive.
+-Now PCR could only be deployed on entities with market(planets, stations) whose survey level is full, and the option won't appear until your relationship is friendly to Foundation of Borken.
+
+2019/8/31/0.2.6 RC3
+->Fixed a fighter wing inspector bug.
+->Buffed Greystab weapons.
+->Reduced Roaring Bolt ordnance costs.
+-Fixed Fighter checkers' bug.
+-Buffed Grey Stab series.
+-Decreased Strombel series' OP.
+
+2019/8/5/0.2.6 RC2 — Starting a new game is recommended
+->Fixed some bugs.
+->Corrected ship prices.
+->Adjusted Star Hunter Circulation Hub values, with an overall buff.
+->Adjusted the star system.
+-Fixed some bugs.
+-Fixed ship prices.
+-Buffed Star Hunter Circulation Centre hullmod.
+-Tweaked star system.
+
+2019/7/16/0.2.6 RC1
+->Updated for 0.9.1.
+->Peaceful Evolution is available again!
+->Initial player relationship is now 0.
+-0.9.1 compatible.
+-Now, peaceful evolution appears again!Find it in intel.
+-Set relationship with player to 0.
+
+2019/3/38/0.2.5 RC1
+->Molten Skorka AAC damage per shot: 180->200.
+->Crystal Hole capacity per upgrade and upgrade cost multiplied by 5.
+-Increased Skorka AAC damage per hit from 180 to 200.
+-The capacity and cost of PCR's upgrade x5.
+
+2019/1/18/0.2.4 RC3
+->Replaced the Ceremonial Workshop icon. Each additional hullmod now reduces cargo and fuel capacity by 5%.
+->Halo Microwave Cannon Mk.III and Mk.VI damage per shot: 550->600.
+->Added the Ammutseba Deep Space Survey Platform logistics ship.
+-Changed the icon of Ceremonial Workshop, and each additional hullmod will decrease the capacity of cargo and fuel.
+-Increased Halo Microwave Cannon MK.III,MK.VI damage per shot from 550 to 600.
+-Added new ship: Ammutseba-class, salvaging ship.
+
+=2019/1/12/0.2.4 RC2
+->Plasmoid ASC Mk.III damage per shot: 180->200.
+->Halo Microwave Cannon Mk.III and Mk.VI flux per shot: 800->750.
+->Nyogtha deployment/maintenance: 32->30.
+->Polyp deployment/maintenance: 28->25.
+->Fixed excessive Touch of the Black Goat damage.
+->Doubled initial ammunition for FixG-M and FixG-L.
+->Fixed several potential issues.
+-Increased Plasmoid ASC MK.III dph from 180 to 200.
+-Decreased Halo Microwave Cannon MK.III,MK.VI flux per shot from 800 to 750.
+-Decreased Nyogtha's supplies per deploy and month from 32 to 30.
+-Decreased Polyps's supplies per deploy and month from 28 to 25.
+-Fixed the exceeded damage of Touch of Niggurath.
+-Twice the ammo of FixG-M & FixG-L.
+-Fixed some bugs.
+
+=2019/1/9/0.2.4 RC1
+->Temporary support for 0.9a. Peaceful Evolution missions temporarily removed.
+->Improved armor equalization effects. MagicLib is now required.
+->Halo Microwave Cannon Mk.VI ordnance points: 30->26.
+->Added a new large energy weapon: Touch of the Black Goat.
+-Temporary support 0.9aRC10. Temporary deleted Peaceful Evolution mission.
+-Improved armor effect and required MagicLib now.
+-Decreased Halo Microwave Cannon MK.VI OP by 4.
+-Added new large energy weapon, Touch of Niggurath.
+
+
+=2018/10/27/0.2.3 RC4
+->Added Gladiator Society support and 2 bounties.
+-Support Gladiator Society, and add 2 bounties(for test).
+->Fixed a Peaceful Evolution bug.
+-Fixed a bug of Peaceful Evolution.
+->Molten Skorka AAC DPS/FPS: 277/415->312/462; DPH: 160->180.
+-Increased Skorka AAC damage per hit and flux.
+
+=2018/8/17/0.2.3 RC3
+->Reduced the firing arcs of Shudde M'ell large mounts and its two rear medium turrets.
+-Nerfed Shuddemell-class's weapons arcs of two large and two medium weapon mounts.
+
+=2018/7/20/0.2.3 RC2
+->Fixed excessive Void Shambler Barrage damage. It can no longer launch projectiles from missile-slot weapons, and projectile quantity was reduced.
+->Chaugnar ordnance points: 235->160.
+->Shoggoth ordnance points: 90->80.
+->Tweaked some sound files.
+
+=2018/6/20/0.2.3 RC1
+->Moved PCH settings from data/config/pch to data/config/fob/pch.
+->Modders can override initial Borken relationships in data/config/fob/start_relation.csv in non-random-sector mode.
+->Increased Hound Core Array pursuit speed bonus by 10% and adjusted its damage bonus.
+->Removed A.O.O.I. armor damage reduction during phase cooldown. It now increases kinetic damage taken by 25% and reduces high-explosive damage taken by 25%.
+->A.O.O.I. adaptive armor recovery range: 50%~80%->40%~70%.
+->Added Mental Healers to Borken markets, allowing officer personality changes.
+->Added Old God Scholar light cruiser, with Shadow Dash and built-in Cthugha's Breath.
+->Smoothed tentacle animations.
+
+=2018/5/22/0.2.2 RC3
+->Increased Peaceful Evolution generation intervals. Conversion now has a ship-size penalty of 50% for each size category above the target.
+->Further reduced Peaceful Evolution rewards.
+->Removed 4 small mounts from Chthonian; ordnance points: 110->95.
+
+=2018/5/18/0.2.2 RC2
+->Reduced Peaceful Evolution rewards and fixed visual bugs.
+
+=2018/5/17/0.2.2 RC1
+->Added the Sine Repeater weapon series.
+->Changed the Chinese edition's mod name to Foundation of Borken [Foundation Of Borken].
+->Redesigned/improved all ship sprites.
+->Void Shambler Barrage cooldown: 7s->12s, an increase of 5 seconds.
+->A.O.O.I. reduces all armor bonuses originating outside the Borken systems by 50%, including officer skills and ship systems.
+->Added the Peaceful Evolution campaign mission.
+->Added built-in Ceremonial Workshop to Borken freighters.
+
+=2018/2/17/0.2.1 RC4
+->Adjusted damage calculations for the Basatan's Void Shambler Barrage system.
+
+=2018/2/16/0.2.1 RC3
+->A.O.O.I. armor recovery changed from a fixed 50% to an adaptive 50%~80% across armor ratings of 400~1500. Recovery time: 2->2.5 seconds.
+->Replaced Basatan's Cthulasus Fever with Void Shambler Barrage, summoning large numbers of projectiles from its current projectile weapons to saturate targets ahead.
+
+=2018/2/13/0.2.1 RC2
+->Optimized tentacle scripts.
+->Adjusted Faded-M Flak Cannon sprites.
+->Weapon buffs:
+	Molten Skorka AAC ordnance points: 30->28.
+	Halo Microwave Cannon Mk.I/III/VI range increased by 50.
+Buffed some weapons:
+	Skorka AAC OP 30 -> 28
+	Halo Microwave Cannon (All types) Add 50 range
+
+=2018/2/6/0.2.1 RC1
+->Added Nexerelin support.
+->Tentacles now become slightly visible while most ship systems are active.
+->With GraphicLib lighting enabled, repairing armor glows red around the affected area.
+->Added GraphicLib normal, surface, and material maps to most ship sprites.
+->Deep Space Navigation duration increased by 1 second and cooldown by 2 seconds.
+
+=2017/12/26/0.2.0a
+->Mi-Go now has Tracking Anti-Air System, improving maneuverability and firing 12 homing missiles at fighters.
+
+=2017/12/22 0.2.0a
+->Redesigned and smoothed tentacle animations. Tentacles now gradually become visible below 40% hull integrity.
+
+=2017/12/18 0.2.0a
+->Molten Skorka AAC flux per two-shot burst: 160->120.
+->Increased ordnance points on some ships:
+	Dhole +5
+	Tindalos +5
+	Nyogtha +10
+	Shudde M'ell +20
+
+=2017/12/16 0.2.0a
+->Added Hound Core Array, greatly improving pursuit ability with no installation restrictions.
+
+=2017/12/10 0.2.0a
+->Fixed some Private Crystal Hole crashes.
+->Normalized Private Crystal Hole cargo capacity calculation, with a minimum of 1.
+
+=2017/12/9 0.2.0a
+->A fucking huge update: Private Crystal Hole.
+
+=2017/12/3 0.1.4a
+->Emergency fix for a ping issue and several Raska sprite errors.
+
+=2017/12/2 0.1.4a
+->Added two high-explosive weapons for energy mounts: Molten Raska AAC and Molten Skorka AAC.
+->Chaugnar and Shudde M'ell Burn Drive replaced with Power Cycle Drive, with shorter duration/cooldown and limited turning allowed.
+->Greatly reduced ship prices.
+
+=2017/11/26 0.1.4a
+->Star Hunter Circulation Hub ordnance points: 7/14/25/36->5/10/16/24.
+->Afogomorn Keel ordnance points: 5/12/18/25->4/8/14/20. Grants 15/12/9/6% extra armor during damage calculations.
+
+=2017/11/20 0.1.4a
+->Added the Plasmoid ASC series: ballistic weapons with kinetic damage.
+
+=2017/11/17 Demo 0.1.3f
+->Fixed an Afogomorn Keel bug.
+->Roaring Bolt weapons now deal EMP damage: 50/100/200.
+->All FixG projectile speeds: 600->500; ammunition regeneration per second: 0.15/0.3/0.5->0.1/0.2/0.3.
+
+=2017/11/12 Demo 0.1.3a
+->Added Afogomorn Keel, a damage-control hullmod built into Polyp and Shudde M'ell ships.
+
+=2017/11/5 Demo 0.1.3a
+->Added Shantak light carrier with Enhanced Vitality Burst.
+
+=2017/10/19 Demo 0.1.2a
+->Reworked Star Hunter Circulation Hub to avoid vanilla issues. Its capital-ship damage bonus is replaced by reduced rate of fire and increased weapon damage at high flux; missiles are unaffected.
+->Added Shaggai fighters.
+->Byakhee system changed to Enhanced Vitality Burst, granting fighter damage and speed bonuses for the rest of the battle. Can be used only 3 times, with stacking bonuses and a long cooldown.
+
+=2017/10/5 Demo 0.1.2a
+->Fixed Borken effective armor calculations. All ships now have more effective armor.
+->A.O.O.I. now regenerates armor outside combat, up to 50% for frigates.
+->Slightly adjusted default Borken AI to be more aggressive. Probably.
+->Added Star Hunter Circulation Hub, increasing armor penetration and damage against capital ships. Built into Chthonian and Basatan.
+->Added Byakhee Heavy Carrier, a modular carrier with Biotic Confluence.
+
+=2017/10/3 Demo 0.1.2a
+->Added Basatan battleship with Cthulasus Fever.
+->Cthulasus Fever armor damage taken multiplier: 2->1.5.
+->Adjusted all tentacle positions.
+
+=2017/8/21 Demo 0.1.0a
+->Added Gnoph-keh Fortress Freighter, a destroyer-sized transport with Biotic Confluence.
+->Reduced armor on most ships.
+
+=2017/8/21 Demo 0.1.0a
+->Added Biotic Confluence, improving A.O.O.I. armor recovery. Currently used by Tindalos destroyers and Shoggoth fortress transports.
+->Added Cthulasus Fever, boosting weapon output while doubling armor damage taken. Currently used by Chthonian destroyers.
+->Fixed A.O.O.I. armor recovering too quickly.
+->Chthonian large synergy mount->large energy.
+->Adjusted maneuverability on all ships and reduced top speeds.
+
+=2017/8/20 Demo 0.1.0a
+->Fixed a Polyp light cruiser system bug.
+->Corrected Shudde M'ell battleship descriptions.
+
